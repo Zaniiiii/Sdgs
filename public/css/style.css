@@ -1,0 +1,165 @@
+/* CUSTOM CSS */
+:root, 
+[data-bs-theme="light"] {
+    --marker-sdg-1 :  #EB1C2E, 
+    --marker-sdg-2 : #D3A02A, 
+    --marker-sdg-3 : #279B48, 
+    --marker-sdg-4 : #C21F32, 
+    --marker-sdg-5 : #EF3E2A,
+    --marker-sdg-6 : #05AED9,
+    --marker-sdg-7 : #FCB712,
+    --marker-sdg-8 : #8F1838,
+    --marker-sdg-9 : #F36D26,
+    --marker-sdg-10 : #E11E87,
+    --marker-sdg-11 : #FA9D26,
+    --marker-sdg-12 : #CF8E29,
+    --marker-sdg-13 : #48783E,
+    --marker-sdg-14 : #037DBC,
+    --marker-sdg-15 : #3DB049,
+    --marker-sdg-16 : #04558C,
+    --marker-sdg-17 : #183668
+}
+
+.chart-sdg-legend {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 1rem;
+    grid-template-rows: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, auto); 
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.chart-sdg-legend-item {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.chart-sdg-legend-item-marker {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.chart-sdg-legend-item-marker.SDGS1 {
+    background-color: #EB1C2E;
+}
+
+.chart-sdg-legend-item-marker.SDGS2 {
+    background-color: #D3A02A;
+}
+
+.chart-sdg-legend-item-marker.SDGS3 {
+    background-color: #279B48;
+}
+
+.chart-sdg-legend-item-marker.SDGS4 {
+    background-color: #C21F32;
+}
+
+.chart-sdg-legend-item-marker.SDGS5 {
+    background-color: #EF3E2A;
+}
+
+.chart-sdg-legend-item-marker.SDGS6 {
+    background-color:  #05AED9;
+}
+
+.chart-sdg-legend-item-marker.SDGS7 {
+    background-color: #FCB712;
+}
+
+.chart-sdg-legend-item-marker.SDGS8 {
+    background-color: #8F1838;
+}
+
+.chart-sdg-legend-item-marker.SDGS9 {
+    background-color: #F36D26;
+}
+
+.chart-sdg-legend-item-marker.SDGS10 {
+    background-color: #E11E87;
+}
+
+.chart-sdg-legend-item-marker.SDGS11 {
+    background-color: #FA9D26;
+}
+
+.chart-sdg-legend-item-marker.SDGS12 {
+    background-color: #CF8E29;
+}
+
+.chart-sdg-legend-item-marker.SDGS13 {
+    background-color: #48783E;
+}
+
+.chart-sdg-legend-item-marker.SDGS14 {
+    background-color: #037DBC;
+}
+
+.chart-sdg-legend-item-marker.SDGS15 {
+    background-color: #3DB049;
+}
+
+.chart-sdg-legend-item-marker.SDGS16 {
+    background-color: #04558C;
+}
+
+.chart-sdg-legend-item-marker.SDGS17 {
+    background-color: #183668;
+}
+
+.hover-opacity:hover {
+    opacity: 0.7;
+    transition: all 150ms;
+}
+
+@media (min-width: 480px) { 
+    .chart-sdg-legend {
+        display: grid;
+        grid-auto-flow: row;
+        grid-gap: 1rem;
+        grid-template-rows: repeat(3, 1fr); 
+        grid-template-columns: repeat(5, auto); 
+    }
+}
+
+@media (min-width: 576px) { 
+    .chart-sdg-legend {
+        display: grid;
+        grid-auto-flow: row;
+        grid-gap: 1rem;
+        grid-template-rows: repeat(3, 1fr); 
+        grid-template-columns: repeat(6, auto);
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 768px) { 
+    .chart-sdg-legend {
+        padding: 2rem 0;
+        display: grid;
+        grid-auto-flow: row;
+        row-gap: 0.5rem;
+        column-gap: 1.25rem;
+        grid-template-rows: repeat(3, 1fr); 
+        grid-template-columns: repeat(6, auto); 
+        font-size: 16px;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) { 
+    .chart-sdg-legend {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(9, auto); 
+    }
+}
+
+table {
+    font-size: 14px;
+}

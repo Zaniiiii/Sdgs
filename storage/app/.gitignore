@@ -1,0 +1,5 @@
+result/*
+model_OLD
+app/__pycache__
+!public/
+!.gitignore
